@@ -1,0 +1,28 @@
+{
+  "history": [
+    {
+      "user": "flo",
+      "assistant": "haii! apa kabar? lagi pengen ngobrol apa nih? 😄💚",
+      "timestamp": 1774963225108
+    },
+    {
+      "user": "messedlife",
+      "assistant": "Haiii, messedlife! 😄 Lagi santai apa lagi sibuk? cerita dong, aku dengerin! 🫶",
+      "timestamp": 1774963281837
+    }
+  ],
+  "profile": {
+    "name": null,
+    "preferences": [],
+    "lastTopics": [],
+    "mood": "neutral",
+    "language": "en"
+  },
+  "stats": {
+    "totalMessages": 2,
+    "firstSeen": 1774963221727,
+    "lastSeen": 1774963281838,
+    "totalTokens": 0
+  },
+  "knowledge": []
+}
