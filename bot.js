@@ -1,7 +1,18 @@
+const http = require('http');
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const Logger = require('./Server/Logger');
 const chatAI = require('./Server/Chat AI');
+
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ status: 'ok', bot: 'Grims AI' }));
+});
+
+const port = process.env.PORT || 10000;
+server.listen(port, '0.0.0.0', () => {
+    Logger.success(`Health check server listening on port ${port}`);
+});
 
 const client = new Client({
     intents: [
